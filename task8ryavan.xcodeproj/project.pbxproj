@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95447ACF2C871E2300D9B493 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95447ACE2C871E2300D9B493 /* ProductCollectionViewCell.swift */; };
+		95447AD12C871E6000D9B493 /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95447AD02C871E6000D9B493 /* ProductCollectionViewCell.xib */; };
+		95447AD32C8721EE00D9B493 /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95447AD22C8721EE00D9B493 /* ProductTableViewCell.xib */; };
+		95447AD52C87228900D9B493 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95447AD42C87228900D9B493 /* ProductTableViewCell.swift */; };
 		954C614D2C8264EC00AF14EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954C614C2C8264EC00AF14EB /* AppDelegate.swift */; };
 		954C614F2C8264EC00AF14EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954C614E2C8264EC00AF14EB /* SceneDelegate.swift */; };
 		954C61512C8264EC00AF14EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954C61502C8264EC00AF14EB /* ViewController.swift */; };
@@ -26,6 +30,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		95447ACE2C871E2300D9B493 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		95447AD02C871E6000D9B493 /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		95447AD22C8721EE00D9B493 /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
+		95447AD42C87228900D9B493 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
 		954C61492C8264EC00AF14EB /* task8ryavan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = task8ryavan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		954C614C2C8264EC00AF14EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		954C614E2C8264EC00AF14EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,11 +93,15 @@
 				959D01872C836860000C2C08 /* CategoryCollectionViewCell.swift */,
 				959D01972C868B8F000C2C08 /* ShopCategoryTableViewCell.swift */,
 				959D01952C868B5E000C2C08 /* ShopCategoryCollectionViewCell.swift */,
+				95447AD42C87228900D9B493 /* ProductTableViewCell.swift */,
+				95447ACE2C871E2300D9B493 /* ProductCollectionViewCell.swift */,
 				954C61522C8264EC00AF14EB /* Main.storyboard */,
 				959D018B2C83BDEB000C2C08 /* CategoryTableViewCell.xib */,
 				959D01832C8362FC000C2C08 /* CategoryCollectionViewCell.xib */,
 				959D01932C868A89000C2C08 /* ShopCategoryTableViewCell.xib */,
 				959D01912C86895A000C2C08 /* ShopCategoryCollectionViewCell.xib */,
+				95447AD22C8721EE00D9B493 /* ProductTableViewCell.xib */,
+				95447AD02C871E6000D9B493 /* ProductCollectionViewCell.xib */,
 				954C61552C8264EE00AF14EB /* Assets.xcassets */,
 				954C61572C8264EE00AF14EB /* LaunchScreen.storyboard */,
 				954C615A2C8264EE00AF14EB /* Info.plist */,
@@ -161,6 +173,8 @@
 				959D018C2C83BDEB000C2C08 /* CategoryTableViewCell.xib in Resources */,
 				954C61592C8264EE00AF14EB /* LaunchScreen.storyboard in Resources */,
 				954C61562C8264EE00AF14EB /* Assets.xcassets in Resources */,
+				95447AD12C871E6000D9B493 /* ProductCollectionViewCell.xib in Resources */,
+				95447AD32C8721EE00D9B493 /* ProductTableViewCell.xib in Resources */,
 				954C61542C8264EC00AF14EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,10 +188,12 @@
 			files = (
 				959D01802C835D06000C2C08 /* TabbarViewController.swift in Sources */,
 				954C61512C8264EC00AF14EB /* ViewController.swift in Sources */,
+				95447ACF2C871E2300D9B493 /* ProductCollectionViewCell.swift in Sources */,
 				959D01982C868B8F000C2C08 /* ShopCategoryTableViewCell.swift in Sources */,
 				954C614D2C8264EC00AF14EB /* AppDelegate.swift in Sources */,
 				959D01822C83600D000C2C08 /* TableViewController.swift in Sources */,
 				959D018A2C83BDBC000C2C08 /* CategoryTableViewCell.swift in Sources */,
+				95447AD52C87228900D9B493 /* ProductTableViewCell.swift in Sources */,
 				959D01882C836860000C2C08 /* CategoryCollectionViewCell.swift in Sources */,
 				959D01962C868B5E000C2C08 /* ShopCategoryCollectionViewCell.swift in Sources */,
 				954C614F2C8264EC00AF14EB /* SceneDelegate.swift in Sources */,

@@ -16,12 +16,14 @@ class ShopCategoryTableViewCell: UITableViewCell {
             flowLayout.scrollDirection = .vertical
             flowLayout.minimumLineSpacing = 10
             flowLayout.itemSize = CGSize(width: 80 , height: 112 )
+            
             shopCategoryCollectionView.delegate = self
             shopCategoryCollectionView.dataSource = self
             //let nib = UINib(nibName: "CategoryCollectionViewCell", bundle: nil)
             //сollectionView.register(nib, forCellWithReuseIdentifier: "CategoryCollectionViewCell")
             shopCategoryCollectionView.register(UINib(nibName: "ShopCategoryCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "ShopCategoryCollectionViewCell")
             shopCategoryCollectionView.backgroundColor = UIColor.clear
+            
         }
     }
     

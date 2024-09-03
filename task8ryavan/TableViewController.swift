@@ -17,9 +17,12 @@ class TableViewController: UIViewController {
             tableViewHome.register(nib1, forCellReuseIdentifier: "CategoryTableViewCell")
             let nib2 = UINib(nibName: "ShopCategoryTableViewCell", bundle: nil)
             tableViewHome.register(nib2, forCellReuseIdentifier: "ShopCategoryTableViewCell")
+            let nib3 = UINib(nibName: "ProductTableViewCell", bundle: nil)
+            tableViewHome.register(nib3, forCellReuseIdentifier: "ProductTableViewCell")
             tableViewHome.backgroundColor = UIColor.clear
             tableViewHome.footerView(forSection: 50)
             tableViewHome.headerView(forSection: 50)
+            
         }
     }
 }
@@ -28,18 +31,20 @@ class TableViewController: UIViewController {
 extension TableViewController: UITableViewDelegate,UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return 3
     }
+    
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        // Получаем идентификатор ячейки для текущего индекса
         let identifier: String
         switch indexPath.row {
         case 0:
             identifier = "CategoryTableViewCell"
         case 1:
             identifier = "ShopCategoryTableViewCell"
+        case 2:
+            identifier = "ProductTableViewCell"
         default:
             identifier = "DefaultCellIdentifier" // используйте идентификатор по умолчанию для других случаев
         }
@@ -48,4 +53,7 @@ extension TableViewController: UITableViewDelegate,UITableViewDataSource{
         return cell
         
     }
+    
+    
+    
 }

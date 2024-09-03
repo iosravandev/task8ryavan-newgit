@@ -1,15 +1,13 @@
 //
-//  CategoryCollectionViewCell.swift
+//  ProductCollectionViewCell.swift
 //  task8ryavan
 //
-//  Created by Ravan on 31.08.24.
+//  Created by Ravan on 03.09.24.
 //
 
 import UIKit
 
-class CategoryCollectionViewCell: UICollectionViewCell {
-    
-    @IBOutlet weak var categoryButton: UIButton!
+class ProductCollectionViewCell: UICollectionViewCell {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -18,8 +16,5 @@ class CategoryCollectionViewCell: UICollectionViewCell {
     required init?(coder: NSCoder) {
         super.init(coder: coder)
     }
-  
-    
-    
-}
 
+}
